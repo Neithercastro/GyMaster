@@ -1,0 +1,1041 @@
+[
+  {
+    "ContainingType": "GYMaster_API.Controllers.AsistenciasController",
+    "Method": "GetAsistenciasUsuario",
+    "RelativePath": "api/Asistencias/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioUsuarios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GYMaster_API.DTO.AsistenciasDTO, GYMaster-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.AsistenciasController",
+    "Method": "GetAsistencias",
+    "RelativePath": "api/Asistencias/Catalogo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioGimnasios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GYMaster_API.DTO.AsistenciasDTO, GYMaster-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.AsistenciasController",
+    "Method": "PostAsistencia",
+    "RelativePath": "api/Asistencias/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.AsistenciasDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.CarritosdetallesController",
+    "Method": "PostCarritosdetalle",
+    "RelativePath": "api/Carritosdetalles/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.CarritosdetalleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.CarritosdetallesController",
+    "Method": "PutCarritosdetalle",
+    "RelativePath": "api/Carritosdetalles/Ajustar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.CarritosdetalleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.CarritosdetallesController",
+    "Method": "PostCarritosdetalleBuscar",
+    "RelativePath": "api/Carritosdetalles/Buscar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioUsuarios",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.ProductosDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GYMaster_API.DTO.CarritosdetalleDTO, GYMaster-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.CarritosdetallesController",
+    "Method": "GetCarritosdetalle",
+    "RelativePath": "api/Carritosdetalles/Catalogo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioUsuarios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GYMaster_API.DTO.CarritosdetalleDTO, GYMaster-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.CarritosdetallesController",
+    "Method": "DeleteCarritosdetalleProducto",
+    "RelativePath": "api/Carritosdetalles/Eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.CarritosdetalleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.CarritosdetallesController",
+    "Method": "DeleteCarritosdetalle",
+    "RelativePath": "api/Carritosdetalles/Limpiar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioUsuarios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.CarritosmaestrosController",
+    "Method": "PutCarritosmaestro",
+    "RelativePath": "api/Carritosmaestros/Actualizar",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.CarritosmaestroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.CarritosmaestrosController",
+    "Method": "GetCarritosmaestro",
+    "RelativePath": "api/Carritosmaestros/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioUsuarios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GYMaster_API.DTO.CarritosmaestroDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.CarritosmaestrosController",
+    "Method": "PostCarritosmaestro",
+    "RelativePath": "api/Carritosmaestros/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioUsuarios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.EjerciciosController",
+    "Method": "GetEjercicio",
+    "RelativePath": "api/Ejercicios/Mostrar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdMusculo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GYMaster_API.DTO.EjerciciosDTO, GYMaster-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.EmailController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "api/Email/Confirmacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Request",
+        "Type": "GYMaster_API.DTO.ConfirmEmailDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.EmailController",
+    "Method": "PurchaseReceipt",
+    "RelativePath": "api/Email/Recibo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Request",
+        "Type": "GYMaster_API.DTO.PurchaseReceiptDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.EmailController",
+    "Method": "RecoverPassword",
+    "RelativePath": "api/Email/Recuperacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Request",
+        "Type": "GYMaster_API.DTO.RecoverPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.GimnasiosController",
+    "Method": "PatchGimnasio",
+    "RelativePath": "api/Gimnasios/Actualizar",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.CredencialesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.GimnasiosController",
+    "Method": "GetGimnasio",
+    "RelativePath": "api/Gimnasios/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioGimnasios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GYMaster_API.DTO.GimnasiosDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.GimnasiosController",
+    "Method": "GetGimnasioCorreo",
+    "RelativePath": "api/Gimnasios/BuscarCorreo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CorreoGimnasios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GYMaster_API.DTO.GimnasiosDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.GimnasiosController",
+    "Method": "PutGimnasio",
+    "RelativePath": "api/Gimnasios/Modificar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.GimnasiosDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.GimnasiosController",
+    "Method": "GetGimnasio",
+    "RelativePath": "api/Gimnasios/Mostrar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GYMaster_API.DTO.GimnasiosDTO, GYMaster-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.GimnasiosController",
+    "Method": "PostGimnasio",
+    "RelativePath": "api/Gimnasios/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.GimnasiosDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.GimnasiosController",
+    "Method": "ValidarGimnasio",
+    "RelativePath": "api/Gimnasios/Validar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.CredencialesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.MembresiasController",
+    "Method": "GetMembresias",
+    "RelativePath": "api/Membresias/Catalogo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioGimnasios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GYMaster_API.DTO.MembresiasDTO, GYMaster-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.MembresiasController",
+    "Method": "PutMembresia",
+    "RelativePath": "api/Membresias/Modificar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.MembresiasDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.MembresiasController",
+    "Method": "GetMembresiasGimnasio",
+    "RelativePath": "api/Membresias/Mostrar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioGimnasios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GYMaster_API.DTO.MembresiasDTO, GYMaster-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.MembresiasController",
+    "Method": "PostMembresia",
+    "RelativePath": "api/Membresias/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.MembresiasDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.PaypalController",
+    "Method": "PaymentWithPaypal",
+    "RelativePath": "api/Paypal/PaymentWithPaypal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Cancel",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "guid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "paymentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PayerID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.ProductosController",
+    "Method": "GetProductos",
+    "RelativePath": "api/Productos/Catalogo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioGimnasios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GYMaster_API.DTO.ProductosDTO, GYMaster-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.ProductosController",
+    "Method": "PutProducto",
+    "RelativePath": "api/Productos/Modificar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NombreProductos",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.ProductosDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.ProductosController",
+    "Method": "GetProductosActivos",
+    "RelativePath": "api/Productos/Mostrar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioGimnasios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GYMaster_API.DTO.ProductosDTO, GYMaster-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.ProductosController",
+    "Method": "PostProducto",
+    "RelativePath": "api/Productos/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.ProductosDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.SeguimientosController",
+    "Method": "GetSeguimiento",
+    "RelativePath": "api/Seguimientos/Catalogo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioUsuarios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GYMaster_API.DTO.SeguimientoDTO, GYMaster-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.SeguimientosController",
+    "Method": "PostSeguimiento",
+    "RelativePath": "api/Seguimientos/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Peso",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.SeguimientoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.SuscripcionesController",
+    "Method": "GetSuscripcione",
+    "RelativePath": "api/Suscripciones/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioUsuarios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GYMaster_API.DTO.SuscripcionesDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.SuscripcionesController",
+    "Method": "PutSuscripcione",
+    "RelativePath": "api/Suscripciones/Modificar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.SuscripcionesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.SuscripcionesController",
+    "Method": "PostSuscripcione",
+    "RelativePath": "api/Suscripciones/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.SuscripcionesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.UsuariosController",
+    "Method": "PatchUsuario",
+    "RelativePath": "api/Usuarios/Actualizar",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.CredencialesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.UsuariosController",
+    "Method": "PatchAfiliarUsuario",
+    "RelativePath": "api/Usuarios/Afiliar",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioUsuarios",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioGimnasios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.UsuariosController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/Usuarios/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioUsuarios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GYMaster_API.DTO.UsuariosDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.UsuariosController",
+    "Method": "GetUsuariosCorreo",
+    "RelativePath": "api/Usuarios/BuscarCorreo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CorreoUsuarios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GYMaster_API.DTO.UsuariosDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.UsuariosController",
+    "Method": "GetUsuariosGimnasio",
+    "RelativePath": "api/Usuarios/Catalogo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioGimnasios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GYMaster_API.DTO.UsuariosDTO, GYMaster-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.UsuariosController",
+    "Method": "PutUsuario",
+    "RelativePath": "api/Usuarios/Modificar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.UsuariosDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.UsuariosController",
+    "Method": "PostUsuario",
+    "RelativePath": "api/Usuarios/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.UsuariosDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.UsuariosController",
+    "Method": "PatchTarjetaUsuario",
+    "RelativePath": "api/Usuarios/RegistroTarjeta",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioUsuarios",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CodigoNFC",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Net.HttpStatusCode",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.UsuariosController",
+    "Method": "ValidarUsuario",
+    "RelativePath": "api/Usuarios/Validar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.CredencialesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.VentasController",
+    "Method": "GetVenta",
+    "RelativePath": "api/Ventas/Catalogo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioGimnasios",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GYMaster_API.DTO.VentasDTO, GYMaster-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.VentasController",
+    "Method": "PostVenta",
+    "RelativePath": "api/Ventas/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.VentasDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.VerificacionController",
+    "Method": "PostVerificacion",
+    "RelativePath": "api/Verificacion/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Object",
+        "Type": "GYMaster_API.DTO.VerificacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GYMaster_API.Controllers.VerificacionController",
+    "Method": "GetVerificacion",
+    "RelativePath": "api/Verificacion/Verificar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\gymaster-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\gymaster-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\dto\\credencialesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\dto\\credencialesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\dto\\verificaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\dto\\verificaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\controllers\\verificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\controllers\\verificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\services\\obteneruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\services\\obteneruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\services\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\services\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\controllers\\asistenciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\controllers\\asistenciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\controllers\\carritosmaestroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\controllers\\carritosmaestroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|c:\\users\\oswal\\source\\repos\\gymaster-api\\gymaster-api\\gymaster-api\\controllers\\carritosdetallescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787FEAF9-24E5-494B-808B-50F1289EA23B}|GYMaster-API\\GYMaster-API.csproj|solutionrelative:gymaster-api\\controllers\\carritosdetallescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VerificacionController.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Controllers\\VerificacionController.cs",
+              "RelativeDocumentMoniker": "GYMaster-API\\Controllers\\VerificacionController.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Controllers\\VerificacionController.cs",
+              "RelativeToolTip": "GYMaster-API\\Controllers\\VerificacionController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAgwF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-10T19:35:25.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CredencialesDTO.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\DTO\\CredencialesDTO.cs",
+              "RelativeDocumentMoniker": "GYMaster-API\\DTO\\CredencialesDTO.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\DTO\\CredencialesDTO.cs",
+              "RelativeToolTip": "GYMaster-API\\DTO\\CredencialesDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T01:19:19.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "GYMaster-API\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "GYMaster-API\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAkwJoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-10T19:35:25.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ObtenerUser.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Services\\ObtenerUser.cs",
+              "RelativeDocumentMoniker": "GYMaster-API\\Services\\ObtenerUser.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Services\\ObtenerUser.cs",
+              "RelativeToolTip": "GYMaster-API\\Services\\ObtenerUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T21:11:26.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "GYMaster-API\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Services\\EmailService.cs",
+              "RelativeToolTip": "GYMaster-API\\Services\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-10T19:35:25.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\appsettings.json",
+              "RelativeDocumentMoniker": "GYMaster-API\\appsettings.json",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\appsettings.json",
+              "RelativeToolTip": "GYMaster-API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-10T19:40:52.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Services\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "GYMaster-API\\Services\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Services\\IUserRepository.cs",
+              "RelativeToolTip": "GYMaster-API\\Services\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T21:11:55.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GYMaster-API.csproj",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\GYMaster-API.csproj",
+              "RelativeDocumentMoniker": "GYMaster-API\\GYMaster-API.csproj",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\GYMaster-API.csproj",
+              "RelativeToolTip": "GYMaster-API\\GYMaster-API.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-04T03:21:26.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VerificacionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\DTO\\VerificacionDTO.cs",
+              "RelativeDocumentMoniker": "GYMaster-API\\DTO\\VerificacionDTO.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\DTO\\VerificacionDTO.cs",
+              "RelativeToolTip": "GYMaster-API\\DTO\\VerificacionDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T01:23:51.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "GYMaster-API\\Services\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Services\\IEmailService.cs",
+              "RelativeToolTip": "GYMaster-API\\Services\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-10T19:35:25.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "GYMaster-API\\Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "GYMaster-API\\Controllers\\EmailController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-10T19:35:25.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AsistenciasController.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Controllers\\AsistenciasController.cs",
+              "RelativeDocumentMoniker": "GYMaster-API\\Controllers\\AsistenciasController.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Controllers\\AsistenciasController.cs",
+              "RelativeToolTip": "GYMaster-API\\Controllers\\AsistenciasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T03:25:50.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CarritosmaestrosController.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Controllers\\CarritosmaestrosController.cs",
+              "RelativeDocumentMoniker": "GYMaster-API\\Controllers\\CarritosmaestrosController.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Controllers\\CarritosmaestrosController.cs",
+              "RelativeToolTip": "GYMaster-API\\Controllers\\CarritosmaestrosController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-10T19:35:24.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CarritosdetallesController.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Controllers\\CarritosdetallesController.cs",
+              "RelativeDocumentMoniker": "GYMaster-API\\Controllers\\CarritosdetallesController.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\GYMaster-API\\GYMaster-API\\GYMaster-API\\Controllers\\CarritosdetallesController.cs",
+              "RelativeToolTip": "GYMaster-API\\Controllers\\CarritosdetallesController.cs",
+              "ViewState": "AQIAALkAAAAAAAAAACBjwFAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-10T19:35:25.495Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

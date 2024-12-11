@@ -1,0 +1,1601 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "GYMaster",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Asistencias/Buscar": {
+      "get": {
+        "tags": [
+          "Asistencias"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioUsuarios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/AsistenciasDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Asistencias/Catalogo": {
+      "get": {
+        "tags": [
+          "Asistencias"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioGimnasios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/AsistenciasDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Asistencias/Registrar": {
+      "post": {
+        "tags": [
+          "Asistencias"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/AsistenciasDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Carritosdetalles/Catalogo": {
+      "get": {
+        "tags": [
+          "Carritosdetalles"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioUsuarios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/CarritosdetalleDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Carritosdetalles/Agregar": {
+      "post": {
+        "tags": [
+          "Carritosdetalles"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CarritosdetalleDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Carritosdetalles/Ajustar": {
+      "put": {
+        "tags": [
+          "Carritosdetalles"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CarritosdetalleDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Carritosmaestros/Buscar": {
+      "get": {
+        "tags": [
+          "Carritosmaestros"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioUsuarios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/CarritosmaestroDTO"
+            }
+          }
+        }
+      }
+    },
+    "/api/Carritosmaestros/Registrar": {
+      "post": {
+        "tags": [
+          "Carritosmaestros"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioUsuarios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Carritosmaestros/Actualizar": {
+      "patch": {
+        "tags": [
+          "Carritosmaestros"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CarritosmaestroDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Ejercicios/Mostrar": {
+      "get": {
+        "tags": [
+          "Ejercicios"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "IdMusculo",
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/EjerciciosDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Email/resetpassword": {
+      "post": {
+        "tags": [
+          "Email"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ResetPasswordRequestDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Gimnasios/Validar": {
+      "post": {
+        "tags": [
+          "Gimnasios"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CredencialesDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Gimnasios/Mostrar": {
+      "get": {
+        "tags": [
+          "Gimnasios"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/GimnasiosDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Gimnasios/Buscar": {
+      "get": {
+        "tags": [
+          "Gimnasios"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioGimnasios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/GimnasiosDTO"
+            }
+          }
+        }
+      }
+    },
+    "/api/Gimnasios/Registrar": {
+      "post": {
+        "tags": [
+          "Gimnasios"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/GimnasiosDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Gimnasios/Modificar": {
+      "put": {
+        "tags": [
+          "Gimnasios"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioGimnasios",
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/GimnasiosDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Gimnasios/Actualizar": {
+      "patch": {
+        "tags": [
+          "Gimnasios"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CredencialesDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Membresias/Mostrar": {
+      "get": {
+        "tags": [
+          "Membresias"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioGimnasios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/MembresiasDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Membresias/Catalogo": {
+      "get": {
+        "tags": [
+          "Membresias"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioGimnasios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/MembresiasDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Membresias/Registrar": {
+      "post": {
+        "tags": [
+          "Membresias"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/MembresiasDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Membresias/Modificar": {
+      "put": {
+        "tags": [
+          "Membresias"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/MembresiasDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Paypal/PaymentWithPaypal": {
+      "get": {
+        "tags": [
+          "Paypal"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "Cancel",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "guid",
+            "type": "string",
+            "default": ""
+          },
+          {
+            "in": "query",
+            "name": "paymentId",
+            "type": "string",
+            "default": ""
+          },
+          {
+            "in": "query",
+            "name": "token",
+            "type": "string",
+            "default": ""
+          },
+          {
+            "in": "query",
+            "name": "PayerID",
+            "type": "string",
+            "default": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Productos/Mostrar": {
+      "get": {
+        "tags": [
+          "Productos"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioGimnasios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ProductosDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Productos/Catalogo": {
+      "get": {
+        "tags": [
+          "Productos"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioGimnasios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ProductosDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Productos/Registrar": {
+      "post": {
+        "tags": [
+          "Productos"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ProductosDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Productos/Modificar": {
+      "put": {
+        "tags": [
+          "Productos"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "NombreProductos",
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ProductosDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Seguimientos/Catalogo": {
+      "get": {
+        "tags": [
+          "Seguimientos"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioUsuarios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/SeguimientoDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Seguimientos/Registrar": {
+      "post": {
+        "tags": [
+          "Seguimientos"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/SeguimientoDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Suscripciones/Buscar": {
+      "get": {
+        "tags": [
+          "Suscripciones"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioUsuarios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/SuscripcionesDTO"
+            }
+          }
+        }
+      }
+    },
+    "/api/Suscripciones/Registrar": {
+      "post": {
+        "tags": [
+          "Suscripciones"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/SuscripcionesDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Suscripciones/Modificar": {
+      "put": {
+        "tags": [
+          "Suscripciones"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/SuscripcionesDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Usuarios/Validar": {
+      "post": {
+        "tags": [
+          "Usuarios"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CredencialesDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Usuarios/Catalogo": {
+      "get": {
+        "tags": [
+          "Usuarios"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioGimnasios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/UsuariosDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Usuarios/Buscar": {
+      "get": {
+        "tags": [
+          "Usuarios"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioUsuarios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/UsuariosDTO"
+            }
+          }
+        }
+      }
+    },
+    "/api/Usuarios/Registrar": {
+      "post": {
+        "tags": [
+          "Usuarios"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/UsuariosDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Usuarios/Modificar": {
+      "put": {
+        "tags": [
+          "Usuarios"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioUsuarios",
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/UsuariosDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Usuarios/Actualizar": {
+      "patch": {
+        "tags": [
+          "Usuarios"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CredencialesDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Usuarios/Afiliar": {
+      "patch": {
+        "tags": [
+          "Usuarios"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioUsuarios",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "UsuarioGimnasios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Usuarios/RegistroTarjeta": {
+      "patch": {
+        "tags": [
+          "Usuarios"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioUsuarios",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "CodigoNFC",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/HttpStatusCode"
+            }
+          }
+        }
+      }
+    },
+    "/api/Ventas/Catalogo": {
+      "get": {
+        "tags": [
+          "Ventas"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioGimnasios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/VentasDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Ventas/Registrar": {
+      "post": {
+        "tags": [
+          "Ventas"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/VentasDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Verificacion/Verificar": {
+      "get": {
+        "tags": [
+          "Verificacion"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "Token",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Verificacion/Registrar": {
+      "post": {
+        "tags": [
+          "Verificacion"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/VerificacionDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "AsistenciasDTO": {
+      "type": "object",
+      "properties": {
+        "usuarioUsuarios": {
+          "type": "string"
+        },
+        "fecha": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "hora": {
+          "$ref": "#/definitions/TimeSpan"
+        }
+      }
+    },
+    "CarritosdetalleDTO": {
+      "type": "object",
+      "properties": {
+        "usuarioUsuarios": {
+          "type": "string"
+        },
+        "idProducto": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "cantidad": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "subtotal": {
+          "format": "double",
+          "type": "number"
+        }
+      }
+    },
+    "CarritosmaestroDTO": {
+      "type": "object",
+      "properties": {
+        "usuarioUsuarios": {
+          "type": "string"
+        },
+        "total": {
+          "format": "double",
+          "type": "number"
+        }
+      }
+    },
+    "CredencialesDTO": {
+      "type": "object",
+      "properties": {
+        "usuario": {
+          "type": "string"
+        },
+        "contrasena": {
+          "type": "string"
+        }
+      }
+    },
+    "EjerciciosDTO": {
+      "type": "object",
+      "properties": {
+        "idEjercicios": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ejercicio": {
+          "type": "string"
+        },
+        "zonaTrabajo": {
+          "type": "string"
+        },
+        "repeticiones": {
+          "type": "string"
+        },
+        "series": {
+          "type": "string"
+        },
+        "nombreMusculo": {
+          "type": "string"
+        }
+      }
+    },
+    "GimnasiosDTO": {
+      "type": "object",
+      "properties": {
+        "nombre": {
+          "type": "string"
+        },
+        "correo": {
+          "type": "string"
+        },
+        "usuario": {
+          "type": "string"
+        },
+        "contrasena": {
+          "type": "string"
+        }
+      }
+    },
+    "HttpStatusCode": {
+      "format": "int32",
+      "enum": [
+        100,
+        101,
+        102,
+        103,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        226,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        421,
+        422,
+        423,
+        424,
+        426,
+        428,
+        429,
+        431,
+        451,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        510,
+        511
+      ],
+      "type": "integer"
+    },
+    "MembresiasDTO": {
+      "type": "object",
+      "properties": {
+        "usuarioGimnasios": {
+          "type": "string"
+        },
+        "tipo": {
+          "type": "string"
+        },
+        "precio": {
+          "format": "double",
+          "type": "number"
+        },
+        "periodo": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idEstatus": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "ProductosDTO": {
+      "type": "object",
+      "properties": {
+        "usuarioGimnasios": {
+          "type": "string"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "descripcion": {
+          "type": "string"
+        },
+        "precio": {
+          "format": "double",
+          "type": "number"
+        },
+        "stock": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idEstatus": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "ResetPasswordRequestDto": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        }
+      }
+    },
+    "SeguimientoDTO": {
+      "type": "object",
+      "properties": {
+        "usuarioUsuarios": {
+          "type": "string"
+        },
+        "sesion": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "imc": {
+          "format": "double",
+          "type": "number"
+        },
+        "fecha": {
+          "format": "date-time",
+          "type": "string"
+        }
+      }
+    },
+    "SuscripcionesDTO": {
+      "type": "object",
+      "properties": {
+        "usuarioUsuarios": {
+          "type": "string"
+        },
+        "usuarioGimnasios": {
+          "type": "string"
+        },
+        "tipoMembresia": {
+          "type": "string"
+        },
+        "fechaRenovacion": {
+          "format": "date-time",
+          "type": "string"
+        }
+      }
+    },
+    "TimeSpan": {
+      "type": "object",
+      "properties": {
+        "ticks": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "days": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "hours": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "milliseconds": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "minutes": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "seconds": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "totalDays": {
+          "format": "double",
+          "type": "number",
+          "readOnly": true
+        },
+        "totalHours": {
+          "format": "double",
+          "type": "number",
+          "readOnly": true
+        },
+        "totalMilliseconds": {
+          "format": "double",
+          "type": "number",
+          "readOnly": true
+        },
+        "totalMinutes": {
+          "format": "double",
+          "type": "number",
+          "readOnly": true
+        },
+        "totalSeconds": {
+          "format": "double",
+          "type": "number",
+          "readOnly": true
+        }
+      }
+    },
+    "UsuariosDTO": {
+      "type": "object",
+      "properties": {
+        "nombres": {
+          "type": "string"
+        },
+        "apellidos": {
+          "type": "string"
+        },
+        "fechaNacimiento": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "sexo": {
+          "type": "string"
+        },
+        "estatura": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "peso": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "telefono": {
+          "type": "string"
+        },
+        "correo": {
+          "type": "string"
+        },
+        "usuario1": {
+          "type": "string"
+        },
+        "contrasena": {
+          "type": "string"
+        },
+        "usuarioGimnasios": {
+          "type": "string"
+        },
+        "fechaRegistro": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "codigoTarjeta": {
+          "type": "string"
+        }
+      }
+    },
+    "VentasDTO": {
+      "type": "object",
+      "properties": {
+        "usuarioGimnasios": {
+          "type": "string"
+        },
+        "concepto": {
+          "type": "string"
+        },
+        "total": {
+          "format": "double",
+          "type": "number"
+        },
+        "fecha": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "hora": {
+          "$ref": "#/definitions/TimeSpan"
+        }
+      }
+    },
+    "VerificacionDTO": {
+      "type": "object",
+      "properties": {
+        "usuario": {
+          "type": "string"
+        },
+        "permiso": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
